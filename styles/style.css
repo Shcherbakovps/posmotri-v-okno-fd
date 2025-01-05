@@ -10,10 +10,9 @@ html {
 
 .page {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  margin: auto;
-  margin-top: 135px; /*В данном случае использован маржин, т.к. контент категорически не "вставал на место" по вертикальной оси относительно макета, взятого из фигмы (в масштабе 1.0)*/
+  margin: auto; 
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -63,7 +62,7 @@ ol {
 }
 
 .result {
-  padding-top: 55px; 
+  padding-top: 55px;
 }
 
 .result__video-container {
@@ -82,7 +81,7 @@ ol {
 .search-form {
   display: grid;
   grid-template-columns: 225px 212px 194px;
-  height: 54px; 
+  height: 54px;
   align-items: start;
   justify-content: space-between;
   padding-top: 17px;
@@ -167,7 +166,7 @@ ol {
   border: 1px solid #FFFFFF;
   width: 19px;
   height: 19px;
-  margin-right: 5px; 
+  margin-right: 5px;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
