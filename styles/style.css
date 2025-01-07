@@ -104,6 +104,7 @@ ol {
   cursor: pointer;
   display: flex;
   flex-direction: row;
+  align-items: center;
   width: fit-content;
   object-fit: cover;
   object-position: center;
@@ -156,7 +157,6 @@ ol {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
-  padding-top: 3px;
 }
 
 .search-form__pseudo-checkbox {
